@@ -23,8 +23,8 @@ Este dashboard do **Spotify**, desenvolvido em **Power BI**, explora tendências
 * `data/`: Base de dados original (`.xls`).
 * `python/`: Script Python utilizado para interagir com a Spotify API e enriquecer o dataset.
 * `powerbi/`: Arquivo `.pbix` do dashboard Power BI.
-* `figma/`: Arquivos ou screenshots relacionados ao protótipo e design no Figma.
-* `html/`: Arquivos HTML ou recursos utilizados para os visuais HTML personalizados, se aplicável.
+* `figma/`: Arquivos relacionados ao protótipo e design no Figma.
+* `html/`: Arquivo HTML utilizado para o visual HTML personalizado.
 * `README.md`: Este documento.
 * `LICENSE`: Licença do projeto (MIT License).
 
