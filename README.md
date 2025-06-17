@@ -22,6 +22,7 @@ Este dashboard do **Spotify**, desenvolvido em **Power BI**, explora tendências
 
 * `data/`: Base de dados original (`.xls`).
 * `python/`: Script Python utilizado para interagir com a Spotify API e enriquecer o dataset.
+* `quarto/`: Arquivo .qmd e sua versão HTML renderizada.
 * `powerbi/`: Arquivo `.pbix` do dashboard Power BI.
 * `figma/`: Arquivos relacionados ao protótipo e design no Figma.
 * `html/`: Arquivo HTML utilizado para o visual HTML personalizado.
