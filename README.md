@@ -1,41 +1,41 @@
-# Projeto: Dashboard Spotify - Análise de Tendências Musicais e Engajamento de Audiência
+# Project: Spotify Dashboard - Analysis of Music Trends and Audience Engagement
 
-![Thumbnail do Dashboard](quarto/capa.png)
+![Dashboard Thumbnail](quarto/capa.png)
 
-### ➡️ Análise Detalhada e Dashboard Interativo no Meu Portfólio:
-[Acesse a página completa do projeto aqui](https://ferreiragabrielw.github.io/portfolio-gabriel/projetos/Dashboards/8DashboardSpotify/Projeto8DA.html)
-
----
-
-## Sobre o Projeto
-
-Este dashboard do **Spotify**, desenvolvido em **Power BI**, explora tendências musicais, engajamento da audiência e características de músicas populares. O projeto destaca a implementação de funcionalidades avançadas como a **integração com a Spotify API via Python** para enriquecimento de dados (capas de álbuns) e o uso de **visuais personalizados (Deneb e HTML Content)** para uma experiência imersiva e visualmente rica.
-
-## Tecnologias e Processo
-
-* **Ferramentas Principais**: Power BI Desktop (DAX, M), Figma (design).
-* **Tecnologias Avançadas**: Python (para enriquecimento de dados), Spotify API (coleta de URLs de capas), HTML Visuals (renderização de capas), Deneb (gráficos personalizados Vega/Vega-Lite).
-* **ETL**: Dataset do Kaggle enriquecido com script Python (API Spotify), transformações de data no Power Query e modelagem de dados no Power BI.
-* **Insights Chave**: Média de ouvintes e total de streams, ranking de músicas/artistas, características sonoras (energia, dancabilidade), e padrões de lançamento ao longo do tempo.
-
-## Conteúdo do Repositório
-
-* `data/`: Base de dados original (`.xls`).
-* `python/`: Script Python utilizado para interagir com a Spotify API e enriquecer o dataset.
-* `quarto/`: Arquivo .qmd e sua versão HTML renderizada.
-* `powerbi/`: Arquivo `.pbix` do dashboard Power BI.
-* `figma/`: Arquivos relacionados ao protótipo e design no Figma.
-* `html/`: Arquivo HTML utilizado para o visual HTML personalizado.
-* `README.md`: Este documento.
-* `LICENSE`: Licença do projeto (MIT License).
-
-## Como Visualizar
-
-* **Online**: [Acesse o dashboard publicado no Power BI Service](https://app.powerbi.com/groups/me/reports/76ca68bc-548e-4c6f-aad1-79c11ece500e/ReportSectionf29673a5990829443c5d?experience=power-bi)
-* **Localmente**: Faça o download do arquivo `.pbix` na pasta `powerbi/` e abra-o com o Power BI Desktop. Note que para os visuais HTML de capas funcionarem localmente, o script Python para baixar as imagens pode precisar ser executado, e as configurações de segurança do Power BI Desktop para visuais personalizados podem precisar de ajuste.
+### ➡️ Detailed Analysis and Interactive Dashboard in My Portfolio:
+[Access the full project page here](https://ferreiragabrielw.github.io/portfolio-gabriel/projetos/Dashboards/8DashboardSpotify/Projeto8DA.html)
 
 ---
 
-### Licença
+## About the Project
 
-Este projeto está licenciado sob a [MIT License](LICENSE).
+This **Spotify** dashboard, developed in **Power BI**, explores music trends, audience engagement, and characteristics of popular songs. The project highlights the implementation of advanced functionalities such as **integration with the Spotify API via Python** for data enrichment (album covers) and the use of **custom visuals (Deneb and HTML Content)** for an immersive and visually rich experience.
+
+## Technologies and Process
+
+*   **Main Tools**: Power BI Desktop (DAX, M), Figma (design).
+*   **Advanced Technologies**: Python (for data enrichment), Spotify API (collecting cover URLs), HTML Visuals (rendering covers), Deneb (custom Vega/Vega-Lite charts).
+*   **ETL**: Kaggle dataset enriched with Python script (Spotify API), date transformations in Power Query, and data modeling in Power BI.
+*   **Key Insights**: Average listeners and total streams, song/artist rankings, sound characteristics (energy, danceability), and release patterns over time.
+
+## Repository Content
+
+*   `data/`: Original database (`.xls`).
+*   `python/`: Python script used to interact with the Spotify API and enrich the dataset.
+*   `quarto/`: `.qmd` file and its rendered HTML version.
+*   `powerbi/`: Power BI dashboard `.pbix` file.
+*   `figma/`: Files related to the prototype and design in Figma.
+*   `html/`: HTML file used for the custom HTML visual.
+*   `README.md`: This document.
+*   `LICENSE`: Project license (MIT License).
+
+## How to View
+
+*   **Online**: [Access the published dashboard on Power BI Service](https://app.powerbi.com/groups/me/reports/76ca68bc-548e-4c6f-aad1-79c11ece500e/ReportSectionf29673a5990829443c5d?experience=power-bi)
+*   **Locally**: Download the `.pbix` file from the `powerbi/` folder and open it with Power BI Desktop. Note that for HTML cover visuals to work locally, the Python script to download images may need to be run, and Power BI Desktop security settings for custom visuals may need adjustment.
+
+---
+
+### License
+
+This project is licensed under the [MIT License](LICENSE).
